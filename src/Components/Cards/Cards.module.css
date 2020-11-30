@@ -1,0 +1,32 @@
+.cards{
+    margin: 15px 20px ;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 0 10px #4c4c4c;
+    width: auto;
+}
+.wrap{
+    display: flex;
+    justify-items: center;
+    justify-content: space-evenly;
+}
+.confirmed{
+    border-bottom: 10px solid #52b7f1;
+}
+.recovered{
+    border-bottom: 10px solid #26ce04;
+}
+.deaths{
+    border-bottom: 10px solid #f70d05;
+}
+
+@media screen and (max-width:780px){
+    .wrap{
+        flex-direction: column;
+    }
+    .cards{
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
